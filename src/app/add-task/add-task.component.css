@@ -1,0 +1,138 @@
+.card {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.heading {
+    margin-top: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
+
+.form-update {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    margin-right: 10px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.form-group input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    outline: none;
+    margin-left: 30px;
+    flex: 1 1;
+    background-color: inherit;
+}
+
+.Input {
+    margin-left: 40%;
+}
+
+.data-table-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: #fff;
+}
+
+.data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.button {
+    width: 115px;
+    height: 35px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.action-button {
+    margin-right: 10px;
+    width: 115px;
+    height: 35px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.error input {
+    border-color: #ff3860;
+}
+
+.error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+@media screen and (max-width: 600px) {
+    /* Update styles for small devices */
+}
+
+/* Styles for medium devices (601px to 900px width) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    /* Update styles for medium devices */
+}
+
+/* Styles for large devices (901px and above width) */
+@media screen and (min-width: 901px) {
+    /* Update styles for large devices */
+}
